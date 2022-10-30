@@ -23,6 +23,7 @@ func _ready():
 
 
 func _physics_process(delta):
+#checking where the collider interact with the ground or the player
 	if(!$DownRay.is_colliding() || ($RightRay.is_colliding())):
 		var collider=$RightRay.get_collider()
 		if collider && collider.name=="player":
@@ -35,7 +36,8 @@ func _physics_process(delta):
 	attack()
 	animate()
 	move_enemy()
-	
+
+#attack function
 func attack():
 	if is_hit:
 		return
@@ -53,6 +55,7 @@ func animate():
 	else:
 		$AnimatedSprite.play("idel")
 
+#enemy movement
 func move_enemy():
 	movement.y+=GRAVITY
 	
@@ -68,6 +71,8 @@ func move_enemy():
 	
 	movement=move_and_slide(movement,UP)
 
+
+#damage function
 func TakeDamage(damage):
 	if !is_hit:
 		EnemyLife=-damage
