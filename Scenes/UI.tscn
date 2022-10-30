@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scrpits/playerhealthbar.gd" type="Script" id=1]
+[ext_resource path="res://Assets/healthbar/Health UI Gold.png" type="Texture" id=2]
+[ext_resource path="res://Assets/healthbar/bg.png" type="Texture" id=3]
+[ext_resource path="res://Assets/healthbar/green.png" type="Texture" id=4]
+
+[node name="UI" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="TextureProgress" type="TextureProgress" parent="Control"]
+margin_left = 24.0
+margin_top = 2.0
+margin_right = 280.0
+margin_bottom = 50.0
+max_value = 1000.0
+texture_under = ExtResource( 3 )
+texture_over = ExtResource( 2 )
+texture_progress = ExtResource( 4 )
+script = ExtResource( 1 )

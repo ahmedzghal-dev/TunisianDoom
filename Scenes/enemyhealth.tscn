@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/enemylifebar.tres" type="Theme" id=1]
+
+[node name="healthbar" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="life" type="ProgressBar" parent="."]
+margin_top = 2.0
+margin_right = 86.0
+margin_bottom = 11.0
+theme = ExtResource( 1 )
+max_value = 50.0
+value = 50.0
+percent_visible = false

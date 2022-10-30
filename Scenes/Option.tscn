@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/TUNISIAN (1).png" type="Texture" id=1]
+[ext_resource path="res://Scenes/Option.gd" type="Script" id=2]
+[ext_resource path="res://Assets/soudeff/menu.mp3" type="AudioStream" id=3]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="Tunisian(1)" type="Sprite" parent="."]
+position = Vector2( 488, 336 )
+scale = Vector2( 0.537051, 0.679999 )
+texture = ExtResource( 1 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 584.0
+margin_top = 384.0
+margin_right = 683.0
+margin_bottom = 424.0
+rect_scale = Vector2( 3.18749, 2.3546 )
+
+[node name="BacktoMenu" type="Button" parent="VBoxContainer"]
+margin_right = 99.0
+margin_bottom = 20.0
+text = "Back to Menu"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CanvasLayer"]
+stream = ExtResource( 3 )
+
+[connection signal="pressed" from="VBoxContainer/BacktoMenu" to="." method="_on_BacktoMenu_pressed"]
