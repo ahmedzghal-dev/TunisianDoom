@@ -17,4 +17,4 @@ func _ready():
 
 func _on_player_PlayerHealthChange(var life):
 	value=life
-	pass # Replace with function body.
+	pass
