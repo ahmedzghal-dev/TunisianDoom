@@ -5,6 +5,8 @@ enum ENEMYSTATE{IDEL,WALK,ATTACK,HURT,DEAD}
 export (ENEMYSTATE) var currentState=ENEMYSTATE.WALK
 export (ENEMYSTATE) var previouState=null
 
+
+#movement
 const UP=Vector2(0,-1)
 const GRAVITY=25
 const MAXSPEED=50
@@ -49,7 +51,8 @@ func _physics_process(delta):
 	
 	executeState()
 	move_enemy()
-	
+
+#enemy attack
 func attack():
 
 	if player_in_range && AnimatedSprite.animation != "kick":
@@ -59,7 +62,7 @@ func attack():
 		is_attacking=false
 
 
-
+#enemy movement
 func move_enemy():
 	movement.y+=GRAVITY
 	
@@ -73,7 +76,8 @@ func move_enemy():
 	
 	
 	movement=move_and_slide(movement,UP)
-	
+
+# finite state machine methode
 func executeState():
 	
 	match currentState:
@@ -154,7 +158,7 @@ func changeState():
 			pass
 	
 	
-
+# enemy taking damage
 func TakeDamage(damage):
 	if !is_hit:
 		EnemyLife-=damage
