@@ -29,5 +29,5 @@
 
 <h2 id="credits"> :scroll: Credits</h2>
 
-youssef boussaid 
+Mohamed Ahmed Zghal 
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmed0097)
