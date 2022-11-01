@@ -1,6 +1,6 @@
 extends Node2D
 
-
+#BackGround Music 
 onready var MG = get_node("MusicGame2/AudioStreamPlayer")
 
 # Called when the node enters the scene tree for the first time.
