@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="file:///C:/Users/Administrator/Downloads/untissstled-modified.png" alt="game logo">
+  <img src="untissstled-modified.png" alt="game logo">
 </p>
 
 <h2 id="about-the-project"> :pencil: About The Project</h2>
