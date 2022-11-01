@@ -1,5 +1,6 @@
 extends Control
 
+#key building option interface
 onready var OM=get_node("CanvasLayer/AudioStreamPlayer")
 
 func _ready():
