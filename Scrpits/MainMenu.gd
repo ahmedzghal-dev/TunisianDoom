@@ -1,5 +1,6 @@
 extends Control
 
+# UI User interface
 onready var MMG=get_node("CanvasLayer/AudioStreamPlayer")
 # Called when the node enters the scene tree for the first time.
 func _ready():
