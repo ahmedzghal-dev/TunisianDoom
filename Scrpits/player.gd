@@ -6,6 +6,7 @@ enum PLAYERSTATE{IDEL,RUN,JUMP,ATTACK,HURT,DEAD}
 export (PLAYERSTATE) var currentState=PLAYERSTATE.IDEL
 export (PLAYERSTATE) var previousState=null
 
+#movment 
 const UP = Vector2(0,-1)
 const GRAVITY = 70
 const MAXSPEED = 90
@@ -46,7 +47,7 @@ func _process(delta):
 	var LabelNode = get_parent().get_node("score counter/UI/Control/RichTextLabel")
 	LabelNode.text = str(score)
 	pass
-
+# player movment
 func _physics_process(delta):
 	HandleInput()
 	executeState()
@@ -58,7 +59,7 @@ func _physics_process(delta):
 		
 	movment=move_and_slide(movment,UP)
 	
-	
+#finit state machine methode
 func executeState():
 	
 	match currentState:
@@ -158,14 +159,14 @@ func changeState():
 		PLAYERSTATE.DEAD:
 			pass
 			
-			
+# key's inputs
 func HandleInput():
 	left = Input.is_action_pressed("left")
 	right = Input.is_action_pressed("right")
 	jump = Input.is_action_just_pressed("jump")
 	attack = Input.is_action_pressed("attack")
 	
-	
+# player attack	
 func Attack():
 	if !is_attacking && AnimatedSprite.animation != "Kick":
 		HitBox.disabled=false
@@ -178,7 +179,7 @@ func Attack():
 		if(right):
 			movment.x=50
 			AnimatedSprite.set_flip_h(false)
-
+#player taking damage
 func TakeDamage(damage):
 	if !is_hit:
 		PlayerLife-=damage
