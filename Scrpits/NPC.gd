@@ -1,5 +1,6 @@
 extends Area2D
 
+#NPC with pop up message
 var active = false
 
 func _ready():
