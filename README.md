@@ -20,13 +20,13 @@ On the other hand, I had an idea to make a game that let the world know more abo
 </p2>
 
 <h2 id="implemented-features"> :magic_wand:  Implemented features</h2>
-<p align="inline"> 
--Collecting and counting rewards.
--Player and enemy damage
--Enemy IA 
--Switching between levels
--Adding sound effects
-</p2>
+<ul>
+<li>-Collecting and counting rewards.</li>
+<li>-Player and enemy damage</li>
+<li>-Enemy IA </li>
+<li>-Switching between levels</li>
+<li>-Adding sound effects</li>
+</ul>
 <h2 id="features-that-still-need-to-be-implementeds"> :cloud:  Features that still need to be implemented</h2>
 <p align="justify"> 
 -Enemy IA 
