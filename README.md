@@ -21,18 +21,18 @@ On the other hand, I had an idea to make a game that let the world know more abo
 
 <h2 id="implemented-features"> :magic_wand:  Implemented features</h2>
 <ul>
-<li>-Collecting and counting rewards.</li>
-<li>-Player and enemy damage</li>
-<li>-Enemy IA </li>
-<li>-Switching between levels</li>
-<li>-Adding sound effects</li>
+<li>Collecting and counting rewards.</li>
+<li>Player and enemy damage</li>
+<li>Enemy IA </li>
+<li>Switching between levels</li>
+<li>Adding sound effects</li>
 </ul>
 <h2 id="features-that-still-need-to-be-implementeds"> :cloud:  Features that still need to be implemented</h2>
-<p align="justify"> 
--Enemy IA 
--Different combat style for the player
--More dynamic gameplay
-</p2>
+<ul>
+<li>Enemy IA</li>
+<li>Different combat style for the player</li>
+<li>More dynamic gameplay</li>
+</ul>
 
 <h2 id="difficult-challenges-encountered"> :dart:  Difficult challenges encountered</h2>
 <p align="justify"> 
