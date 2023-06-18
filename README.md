@@ -20,7 +20,7 @@ On the other hand, I had an idea to make a game that let the world know more abo
 </p2>
 
 <h2 id="implemented-features"> :magic_wand:  Implemented features</h2>
-<p align="justify"> 
+<p align="inline"> 
 -Collecting and counting rewards.
 -Player and enemy damage
 -Enemy IA 
