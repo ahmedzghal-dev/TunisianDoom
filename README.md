@@ -27,7 +27,7 @@ On the other hand, I had an idea to make a game that let the world know more abo
 <li>Switching between levels</li>
 <li>Adding sound effects</li>
 </ul>
-<h2 id="features-that-still-need-to-be-implementeds"> :cloud:  Features that still need to be implemented</h2>
+<h2 id="features-that-still-need-to-be-implementeds"> :construction:  Features that still need to be implemented</h2>
 <ul>
 <li>Enemy IA</li>
 <li>Different combat style for the player</li>
