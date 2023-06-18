@@ -40,6 +40,9 @@ On the other hand, I had an idea to make a game that let the world know more abo
 2- Memory Leak and Multiple instances of the same texture also Unnecessary Iterations like Calling a for/while loop once is easier on the resources than calling it multiple times.
 </p2>
 
+<h2 id="difficult-challenges-encountered"> :dart: Game screenshot</h2>
+![App Screenshot](https://media.licdn.com/dms/image/D4E12AQFvllB3iBqkMg/article-cover_image-shrink_600_2000/0/1667310960377?e=1692835200&v=beta&t=rLhSUo01XxzDTEyGHtApNU4e-s6lOk3TaP1Z_Gr-FRw)
+
 <h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
   <ul>
   <li><b>Scripts</b> - Where all game scripts reside.</li>
