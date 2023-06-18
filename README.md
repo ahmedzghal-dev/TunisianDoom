@@ -41,7 +41,8 @@ On the other hand, I had an idea to make a game that let the world know more abo
 </p2>
 
 <h2 id="difficult-challenges-encountered"> :dart: Game screenshot</h2>
-<img src="untissstled-modified.png" alt="game logo">
+<img src="img1.png" alt="game-img">
+<img src="img2.png" alt="game-img">
 
 <h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
   <ul>
