@@ -7,7 +7,7 @@ This is a game that i made which was inspired from The game called Metal Slug, t
 <a href="https://linkedin.com/in/ahmed zghal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ahmed zghal" height="30" width="40" /></a>
 
 <h2 id="overview"> :cloud: Overview</h2>
-<p align="justify"> 
+<p align="inline"> 
   In this project you will play as the hero to get pass the first level , i wanted to imply the action  genre because it will make the game more fun to play.For game creation, I decided to use the Godot engine which is an engine created in 2014
 and what pushed me toward Godot its simplicity and you need to remember that I have no knowledge whatsoever in making a game, so I tried to find a simple and easy to understand engine
 And for the creation of the asset, i used Aseprite editor.
